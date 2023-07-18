@@ -1,0 +1,17 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+    <center>
+        <h1> NLP entity detection </h1><br>
+        <form method="POST", action="{{url_for('predict')}}">
+            <b>
+            Please enter your question
+            <br>
+            <textarea rows="10" cols="80" name='a' placeholder="Type Here?"></textarea>
+            </b><br><br>
+            <input type="submit" , value='Predict' >
+        </form>
+    </center>
+
+    </body>
+</html>
